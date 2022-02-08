@@ -1,0 +1,66 @@
+.VooLoInfoCheckout {
+  min-width: 327px;
+  height: 40px;
+}
+
+.AvailabilityLimit {
+  background: linear-gradient(
+    270deg,
+    rgba(18, 194, 233, 0.7) 17.13%,
+    rgba(196, 113, 237, 0.8) 44.86%,
+    rgba(246, 79, 89, 0.8) 79.05%
+  );
+  border-radius: 16px 16px 0px 0px;
+  color: white;
+  padding: 6px 21px;
+}
+
+.AvailabilityLimit-title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.AvailabilityLimit-price {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.TotalPayment {
+  color: Black;
+  background: #ffffff;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 0px 8px 8px;
+  padding: 6px 21px;
+}
+
+.TotalPayment-title {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.TotalPaymentInfo {
+  margin-left: 8px;
+}
+
+.TotalPayment-price {
+  margin-right: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.circle-TotalPayment {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

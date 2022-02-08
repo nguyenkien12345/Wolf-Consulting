@@ -1,0 +1,77 @@
+.homepage-user {
+  min-height: 100vh;
+  font-family: "Mulish";
+  font-style: normal;
+}
+
+.user-wrapper {
+  padding-left: 24px;
+  padding-top: 15px;
+  padding-bottom: 38px;
+  background: linear-gradient(209.31deg, #a25deb 0%, #6f2dd9 55.06%);
+  border-radius: 0px 0px 0px 32px;
+  position: relative;
+}
+
+.infoUser-image {
+  margin-right: 10px;
+}
+
+.info-user {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.infoUser-member {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.infoUser-name {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 7px;
+}
+
+.infoUser-rank {
+  background: linear-gradient(34.35deg, #ffa100 43.41%, #ffd037 138.14%);
+  border-radius: 10px;
+  padding: px;
+  margin-right: 8px;
+}
+
+.infoUser-rank-title {
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.infoUser-rank-img {
+  margin-right: 5px;
+}
+
+.infoUser-rank-point {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.sale-list {
+  position: absolute;
+  margin-top: 56px;
+  padding: 16px 24px;
+}
+
+.sale-title {
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.8);
+}

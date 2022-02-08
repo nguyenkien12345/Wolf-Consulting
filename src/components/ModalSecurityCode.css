@@ -1,0 +1,58 @@
+.cardModalSecurityCode {
+  background: rgba(247, 246, 246, 0.84);
+  border-radius: 16px;
+  font-family: "Mulish";
+  font-style: normal;
+  padding: 18px 12px 13px 20px;
+}
+
+.modalSecurityCode-title {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 100%;
+  color: #323f4b;
+  margin-bottom: 18px;
+}
+
+.modalSecurityCode-desc {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #00172e;
+  margin-bottom: 24px;
+}
+
+.modalSecurityCode-notification {
+  padding: 5px 15px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.modalSecurityCode-notification-forget {
+  font-weight: 600;
+  text-align: center;
+  color: #7b8794;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7b8794;
+  margin-right: 4px;
+}
+
+.modalSecurityCode-notification-clickhere {
+  font-weight: bold;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.SecurityPin input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50%;
+}

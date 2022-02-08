@@ -1,0 +1,23 @@
+.btn-register {
+  min-width: 313px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(260.54deg, #68e89a 0%, #39d074 62.86%);
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  line-height: 20px;
+  padding: 10px 13px 10px 70px;
+  color: white;
+}
+
+.btn-register-content {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.bi-chevron-right {
+  margin-left: 36px;
+}

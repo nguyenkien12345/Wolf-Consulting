@@ -1,0 +1,25 @@
+.checkout-wrapper {
+  margin-top: 47px;
+  padding: 0px 15px;
+  margin-bottom: 106px;
+}
+
+.paid-wrapper {
+  border-top: 3px solid #ccc;
+  padding: 10px 15px 0px 15px;
+}
+
+.total-money {
+  padding: 5px 15px;
+}
+
+.btn-choose {
+  color: white;
+  background-color: rgb(231, 106, 106);
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0px 20px 0px;
+  width: 100%;
+}

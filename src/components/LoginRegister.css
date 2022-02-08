@@ -1,0 +1,57 @@
+.VooLoHome {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(209.31deg, #a25deb 0%, #6f2dd9 55.06%);
+  font-family: "Open Sans";
+  font-style: normal;
+  position: relative;
+}
+
+.leftHand-image {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.rightHand-image {
+  top: 78px;
+  right: 0px;
+  position: absolute;
+}
+
+.LogoVOOLO-image {
+  margin-top: 49px;
+  right: 50%;
+  transform: translateX(50%);
+  position: absolute;
+}
+
+/*  */
+
+.VooLo-Account {
+  min-width: 313px;
+  margin-top: 558px;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  color: #ffffff;
+}
+
+.HaveAccount {
+  margin-right: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.LoginNow {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration: none;
+}
