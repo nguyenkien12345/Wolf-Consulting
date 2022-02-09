@@ -1,5 +1,5 @@
-import CheckoutItem from "./CheckoutItem";
-import VooLoImage from "../images/VOOLO.png";
+import CheckoutItem from "../CheckoutItem";
+import VooLoImage from "../../images/VOOLO.png";
 import "./CheckoutEcomnmer.css";
 
 const CheckoutEcommerceList = [

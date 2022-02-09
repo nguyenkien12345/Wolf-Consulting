@@ -1,9 +1,9 @@
-import leftHand from "../images/leftHand.png";
-import rightHand from "../images/rightHand.png";
-import VOOLO from "../images/VOOLO.png";
+import leftHand from "../../images/leftHand.png";
+import rightHand from "../../images/rightHand.png";
+import VOOLO from "../../images/VOOLO.png";
 import "./LoginRegister.css";
-import VooLoInfoCheckout from "./VooLoInfoCheckout/VooLoInfoCheckout";
-import ButtonNext from "./ButtonNext/ButtonNext";
+import VooLoInfoCheckout from "../VooLoInfoCheckout/VooLoInfoCheckout";
+import ButtonNext from "../ButtonNext/ButtonNext";
 
 function LoginRegister() {
   return (

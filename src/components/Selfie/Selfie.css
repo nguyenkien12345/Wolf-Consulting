@@ -1,0 +1,41 @@
+.selfie {
+  min-height: 100vh;
+  font-family: "Mulish";
+  font-style: normal;
+}
+
+.round-circle-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.selfie-background {
+  height: 64px;
+  min-width: 375px;
+  background: linear-gradient(209.31deg, #a25deb 0%, #6f2dd9 55.06%);
+  border-radius: 0px 0px 0px 32px;
+  position: relative;
+}
+
+.selfie-wrapper {
+  top: 120px;
+  position: absolute;
+  padding: 0px 24px;
+}
+
+.selfie-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 16px;
+}
+
+.selfie-image {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 76px;
+}

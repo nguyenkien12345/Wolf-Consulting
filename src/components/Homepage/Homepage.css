@@ -13,6 +13,13 @@
   position: relative;
 }
 
+.round-circle-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
 .infoUser-image {
   margin-right: 10px;
 }
@@ -30,7 +37,7 @@
 .infoUser-name {
   font-weight: normal;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 10px;
   color: #ffffff;
   margin-bottom: 7px;
 }
@@ -38,7 +45,7 @@
 .infoUser-rank {
   background: linear-gradient(34.35deg, #ffa100 43.41%, #ffd037 138.14%);
   border-radius: 10px;
-  padding: px;
+  padding: 0px 2px;
   margin-right: 8px;
 }
 
@@ -60,6 +67,7 @@
   font-size: 12px;
   line-height: 18px;
   color: #ffffff;
+  padding: 2px;
 }
 
 .sale-list {

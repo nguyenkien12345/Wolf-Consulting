@@ -1,0 +1,84 @@
+.cardModal-security {
+  font-family: "Mulish";
+  font-style: normal;
+  background: rgba(247, 246, 246, 0.84);
+  border-radius: 16px;
+  padding: 18px 20px;
+  max-width: 375px;
+  margin: 10px auto;
+  position: relative;
+}
+
+.modalSecurity-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 10px;
+}
+
+.modalSecurity-desc {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #00172e;
+  margin-bottom: 18px;
+}
+
+.modal-close {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.modalSecurity-pin {
+  box-sizing: border-box;
+}
+
+.modalSecurity-pin input[type="password"] {
+  width: 30px;
+  height: 30px;
+  border: 0.5px solid #323f4b;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50%;
+  margin-right: 21px;
+}
+
+.modalSecurity-pin input[type="password"]:last-child {
+  margin-right: 0px;
+}
+
+.modalSecurity-pin {
+  margin-bottom: 10px;
+}
+
+.modalSecurity-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.modalSecurity-forgetPassword {
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  color: #7b8794;
+}
+
+.modalSecurity-clickHere {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2f80ed;
+}

@@ -1,0 +1,83 @@
+.cardModal-phone {
+  font-family: "Mulish";
+  font-style: normal;
+  background: rgba(247, 246, 246, 0.84);
+  border-radius: 16px;
+  padding: 18px 20px;
+  max-width: 375px;
+  margin: 10px auto;
+  position: relative;
+}
+
+.modalPhone-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 10px;
+}
+
+.modalPhone-desc {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #00172e;
+  margin-bottom: 24px;
+}
+
+.form-modalphone {
+  background: rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  margin-bottom: 6px;
+  outline: none;
+}
+
+.form-select-modalphone {
+  border-radius: 20px 0px 0px 20px;
+}
+
+#form-input-modalphone {
+  border-radius: 0px 20px 20px 0px;
+}
+
+.form-input-modalphone {
+  position: relative;
+}
+
+.iconChervonright {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+}
+
+.modalPhone-notification {
+  padding: 0px 0px;
+}
+
+.bi-info-circle {
+  margin-right: 5px;
+  color: orange;
+  flex-shrink: 0;
+}
+
+.modalPhone-notification-title {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(4, 17, 62, 0.7);
+}
+
+.modal-close {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}

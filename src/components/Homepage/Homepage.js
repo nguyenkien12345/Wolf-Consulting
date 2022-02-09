@@ -1,11 +1,12 @@
 import "./Homepage.css";
-import user from "../images/user.png";
-import iconStar from "../images/svg/icon-star.svg";
-import VooLoInfoCheckout from "./VooLoInfoCheckout/VooLoInfoCheckout";
-import tiki from "../images/tiki.png";
-import sendo from "../images/sendo.png";
-import shopee from "../images/shopee.png";
-import SaleItem from "./SaleItem/SaleItem";
+import user from "../../images/user.png";
+import iconStar from "../../images/svg/icon-star.svg";
+import roundCircle from "../../images/roundCircle.png";
+import tiki from "../../images/tiki.png";
+import sendo from "../../images/sendo.png";
+import shopee from "../../images/shopee.png";
+import SaleItem from "../SaleItem/SaleItem";
+import VooLoInfoCheckout from "../VooLoInfoCheckout/VooLoInfoCheckout";
 
 const ListSales = [
   {
@@ -31,10 +32,14 @@ const ListSales = [
 function Homepage() {
   return (
     <div className="homepage-user">
+      <div className="round-circle-bg">
+        <img src={roundCircle} className="img-fluid" alt="" />
+      </div>
+
       <div className="d-flex flex-row align-items-center user-wrapper">
         <img className="rounded img-fluid infoUser-image" src={user} alt="" />
         <div className="infoUser d-flex flex-column align-items-center justify-content-start">
-          <h3 className="infoUser-name">Welcome, Nguyễn Văn A</h3>
+          <h3 className="infoUser-name me-auto">Welcome, Nguyễn Văn A</h3>
           <div className="infoUser-member d-flex flex-row align-items-center">
             <div className="infoUser-rank d-flex flex-row align-items-center justify-content-between">
               <img

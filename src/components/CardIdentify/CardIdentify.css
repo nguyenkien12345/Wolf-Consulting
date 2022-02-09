@@ -1,0 +1,99 @@
+.cardIdentify {
+  min-height: 100vh;
+  font-family: "Mulish";
+  font-style: normal;
+}
+
+.cardIdentify-background {
+  height: 64px;
+  min-width: 375px;
+  background: linear-gradient(209.31deg, #a25deb 0%, #6f2dd9 55.06%);
+  border-radius: 0px 0px 0px 32px;
+  position: relative;
+}
+
+.round-circle-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.cardIdentify-wrapper {
+  top: 120px;
+  position: absolute;
+  padding: 0px 24px;
+}
+
+.cardIdentify-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 16px;
+}
+
+.cardIdentify-images {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cardIdentify-image-front-info,
+.cardIdentify-image-back-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+
+.cardIdentify-image-back,
+.cardIdentify-image-front {
+  width: 156px;
+  height: 156px;
+  background: #ffffff;
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardIdentify-image-front {
+  margin-right: 16px;
+}
+
+.cardIdentify-rounded-back {
+  width: 60px;
+  height: 60px;
+  background: #c4c4c4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardIdentify-instruction,
+.cardIdentify-note {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.cardIdentify-instruction-title,
+.cardIdentify-note-title {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  color: red;
+}
+
+.cardIdentify-instruction {
+  margin-bottom: 16px;
+}
+
+.cardIdentify-note {
+  margin-bottom: 105px;
+}

@@ -51,3 +51,9 @@
   border: none;
   outline: none;
 }
+
+.sale-item-more {
+  display: block;
+  color: #2f2d3d;
+  text-align: center;
+}
