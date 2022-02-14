@@ -4,7 +4,7 @@ function ButtonNext({ name }) {
   return (
     <div className="btn-register">
       <span className="btn-register-content">{name}</span>
-      <i class="bi bi-chevron-right"></i>
+      <i className="bi bi-chevron-right"></i>
     </div>
   );
 }

@@ -9,15 +9,16 @@ function LoginRegister() {
   return (
     <div className="VooLoHome">
       <div className="VooLoImages">
+       <div className="container">
         <img src={leftHand} className="img-fluid leftHand-image" alt="" />
-        <img src={VOOLO} className="img-fluid LogoVOOLO-image" alt="" />
         <img src={rightHand} className="img-fluid rightHand-image" alt="" />
+       </div>
       </div>
 
       {/* VooLoInfoCheckout */}
       <div
         style={{
-          marginTop: "318px",
+          top: "318px",
           position: "absolute",
           right: "50%",
           transform: "translateX(50%)",
@@ -29,7 +30,7 @@ function LoginRegister() {
       {/* ButtonNext */}
       <div
         style={{
-          marginTop: "502px",
+          top: "502px",
           right: "50%",
           transform: "translateX(50%)",
           position: "absolute",

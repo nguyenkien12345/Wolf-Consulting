@@ -47,43 +47,49 @@ function CheckoutEcommerce() {
   return (
     <>
       <div className="checkout-wrapper">
+       <div className="container">
         <div className="d-flex flex-column">
-          <h3 className="mb-3">Chọn phương thức thanh toán</h3>
-          <div className="checkout-wrapper-methods">
-            {CheckoutEcommerceList.map((item) => (
-              <CheckoutItem
-                key={item.id}
-                name={item.name}
-                alt={item.alt}
-                imageSrc={item.imageSrc}
-                desc={item.desc}
-              />
-            ))}
-          </div>
+            <h3 className="mb-3">Chọn phương thức thanh toán</h3>
+            <div className="checkout-wrapper-methods">
+              {CheckoutEcommerceList.map((item) => (
+                <CheckoutItem
+                  key={item.id}
+                  name={item.name}
+                  alt={item.alt}
+                  imageSrc={item.imageSrc}
+                  desc={item.desc}
+                />
+              ))}
+            </div>
         </div>
+       </div>
       </div>
 
       <div className="paid-wrapper mb-5">
-        <div className=" d-flex flex-column">
-          <div className="d-flex justify-content-between">
-            <p>Tạm tính</p>
-            <p>33.450.000đ</p>
-          </div>
-          <div className="d-flex justify-content-between">
-            <span>Phí vận chuyển</span>
-            <span>29.000đ</span>
+        <div className="container">
+          <div className=" d-flex flex-column">
+            <div className="d-flex justify-content-between">
+              <p>Tạm tính</p>
+              <p>33.450.000đ</p>
+            </div>
+            <div className="d-flex justify-content-between">
+              <span>Phí vận chuyển</span>
+              <span>29.000đ</span>
+            </div>
           </div>
         </div>
       </div>
 
-      <div style={{ height: "15px", backgroundColor: "#ccc" }}></div>
+      <div style={{ height: "10px", backgroundColor: "#ccc" }}></div>
 
-      <div className="mb-2 total-money" style={{ height: "75px" }}>
-        <div className="d-flex justify-content-between align-items-end">
-          <span>Thành tiền</span>
-          <span className="text-danger fw-bold fs-3">29.000đ</span>
+      <div className="mb-2 total-money">
+        <div className="container">
+          <div className="d-flex justify-content-between align-items-end">
+            <span>Thành tiền</span>
+            <span className="text-danger fw-bold fs-3">29.000đ</span>
+          </div>
+          <button className="btn-choose">Chọn</button>
         </div>
-        <button className="btn-choose">Chọn</button>
       </div>
     </>
   );

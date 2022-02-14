@@ -11,7 +11,7 @@ import CardIdentify from "./components/CardIdentify/CardIdentify";
 import Selfie from "./components/Selfie/Selfie";
 
 function App() {
-  return <Selfie />;
+  return <Homepage />;
 }
 
 export default App;
